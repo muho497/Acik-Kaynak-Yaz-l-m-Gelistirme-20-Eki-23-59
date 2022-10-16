@@ -1,0 +1,181 @@
+{
+	"info": {
+		"_postman_id": "df8126f6-0734-4c2f-980a-0473f1abeb31",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23895467"
+	},
+	"item": [
+		{
+			"name": "Spacex",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.spacexdata.com/v5/launches/latest",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spacexdata",
+						"com"
+					],
+					"path": [
+						"v5",
+						"launches",
+						"latest"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Spacex",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.spacexdata.com/v5/launches/latest",
+							"protocol": "https",
+							"host": [
+								"api",
+								"spacexdata",
+								"com"
+							],
+							"path": [
+								"v5",
+								"launches",
+								"latest"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sun, 16 Oct 2022 14:53:35 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "access-control-allow-origin",
+							"value": "*"
+						},
+						{
+							"key": "access-control-expose-headers",
+							"value": "spacex-api-cache,spacex-api-response-time"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "max-age=20"
+						},
+						{
+							"key": "content-security-policy",
+							"value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "etag",
+							"value": "W/\"615-Ip/MG7g0l55a1XAv9G4c6VIZOA8\""
+						},
+						{
+							"key": "expect-ct",
+							"value": "max-age=0"
+						},
+						{
+							"key": "referrer-policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "spacex-api-cache",
+							"value": "MISS"
+						},
+						{
+							"key": "spacex-api-cache-online",
+							"value": "true"
+						},
+						{
+							"key": "spacex-api-response-time",
+							"value": "3ms"
+						},
+						{
+							"key": "strict-transport-security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "vary",
+							"value": "Origin"
+						},
+						{
+							"key": "vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "x-content-type-options",
+							"value": "nosniff"
+						},
+						{
+							"key": "x-dns-prefetch-control",
+							"value": "off"
+						},
+						{
+							"key": "x-download-options",
+							"value": "noopen"
+						},
+						{
+							"key": "x-frame-options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "x-permitted-cross-domain-policies",
+							"value": "none"
+						},
+						{
+							"key": "x-xss-protection",
+							"value": "0"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=1zwIhsftPcuQ0SR15603WHnS12h1PeoGJHxT3gMgEvrF372ksz2%2FCM0e6ZxczPoW5DRVQJcju3juTDKrrgRIBr%2Bp1bknokG33g4dYsQYjHXxKlY%2B47p2kusLcrSunFlyOskM0QA%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "75b19ffa5f2e374e-MXP"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"fairings\": null,\n    \"links\": {\n        \"patch\": {\n            \"small\": \"https://images2.imgbox.com/eb/d8/D1Yywp0w_o.png\",\n            \"large\": \"https://images2.imgbox.com/33/2e/k6VE4iYl_o.png\"\n        },\n        \"reddit\": {\n            \"campaign\": null,\n            \"launch\": \"https://www.reddit.com/r/spacex/comments/xvm76j/rspacex_crew5_launchcoast_docking_discussion_and/\",\n            \"media\": null,\n            \"recovery\": null\n        },\n        \"flickr\": {\n            \"small\": [],\n            \"original\": []\n        },\n        \"presskit\": null,\n        \"webcast\": \"https://youtu.be/5EwW8ZkArL4\",\n        \"youtube_id\": \"5EwW8ZkArL4\",\n        \"article\": null,\n        \"wikipedia\": \"https://en.wikipedia.org/wiki/SpaceX_Crew-5\"\n    },\n    \"static_fire_date_utc\": null,\n    \"static_fire_date_unix\": null,\n    \"net\": false,\n    \"window\": null,\n    \"rocket\": \"5e9d0d95eda69973a809d1ec\",\n    \"success\": true,\n    \"failures\": [],\n    \"details\": null,\n    \"crew\": [\n        {\n            \"crew\": \"62dd7196202306255024d13c\",\n            \"role\": \"Commander\"\n        },\n        {\n            \"crew\": \"62dd71c9202306255024d13d\",\n            \"role\": \"Pilot\"\n        },\n        {\n            \"crew\": \"62dd7210202306255024d13e\",\n            \"role\": \"Mission Specialist 1\"\n        },\n        {\n            \"crew\": \"62dd7253202306255024d13f\",\n            \"role\": \"Mission Specialist 2\"\n        }\n    ],\n    \"ships\": [],\n    \"capsules\": [\n        \"617c05591bad2c661a6e2909\"\n    ],\n    \"payloads\": [\n        \"62dd73ed202306255024d145\"\n    ],\n    \"launchpad\": \"5e9e4502f509094188566f88\",\n    \"flight_number\": 187,\n    \"name\": \"Crew-5\",\n    \"date_utc\": \"2022-10-05T16:00:00.000Z\",\n    \"date_unix\": 1664985600,\n    \"date_local\": \"2022-10-05T12:00:00-04:00\",\n    \"date_precision\": \"hour\",\n    \"upcoming\": false,\n    \"cores\": [\n        {\n            \"core\": \"633d9da635a71d1d9c66797b\",\n            \"flight\": 1,\n            \"gridfins\": true,\n            \"legs\": true,\n            \"reused\": false,\n            \"landing_attempt\": true,\n            \"landing_success\": true,\n            \"landing_type\": \"ASDS\",\n            \"landpad\": \"5e9e3033383ecbb9e534e7cc\"\n        }\n    ],\n    \"auto_update\": true,\n    \"tbd\": false,\n    \"launch_library_id\": \"f33d5ece-e825-4cd8-809f-1d4c72a2e0d3\",\n    \"id\": \"62dd70d5202306255024d139\"\n}"
+				}
+			]
+		}
+	]
+}
